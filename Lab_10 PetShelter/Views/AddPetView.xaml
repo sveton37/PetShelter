@@ -1,0 +1,106 @@
+﻿<Window x:Class="Lab_10_PetShelter.Views.AddPetView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Добавить питомца" Height="400" Width="400"
+        WindowStartupLocation="CenterOwner">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Text="Тип животного:" Grid.Row="0" Grid.Column="0" Margin="0,0,10,10"/>
+        <ComboBox Grid.Row="0" Grid.Column="1" 
+                  ItemsSource="{Binding PetTypes}"
+                  SelectedItem="{Binding SelectedPetType}"
+                  Margin="0,0,0,10">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Name}"/>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+
+        <TextBlock Text="Имя:" Grid.Row="1" Grid.Column="0" Margin="0,0,10,10"/>
+        <TextBox Grid.Row="1" Grid.Column="1" 
+                 Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}"
+                 Margin="0,0,0,10"/>
+
+        <TextBlock Text="Возраст:" Grid.Row="2" Grid.Column="0" Margin="0,0,10,10"/>
+        <TextBox Grid.Row="2" Grid.Column="1" 
+                 Text="{Binding Age, UpdateSourceTrigger=PropertyChanged}"
+                 Margin="0,0,0,10"/>
+
+        <TextBlock Text="Вес:" Grid.Row="3" Grid.Column="0" Margin="0,0,10,10"/>
+        <TextBox Grid.Row="3" Grid.Column="1" 
+                 Text="{Binding Weight, UpdateSourceTrigger=PropertyChanged}"
+                 Margin="0,0,0,10"/>
+
+        <TextBlock Text="Клаустрофобия:" Grid.Row="4" Grid.Column="0" Margin="0,0,10,10"/>
+        <CheckBox Grid.Row="4" Grid.Column="1" 
+                  IsChecked="{Binding IsClaustrophobic}"
+                  Margin="0,0,0,10"/>
+
+        <!-- Специфичные свойства для разных типов животных -->
+        <StackPanel Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" 
+                    Visibility="{Binding SpecificPropertiesVisibility}">
+            <!-- Для собаки -->
+            <StackPanel Visibility="{Binding DogPropertiesVisibility}">
+                <CheckBox Content="Дрессированная" 
+                         IsChecked="{Binding IsTrained}"
+                         Margin="0,0,0,10"/>
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                    <TextBlock Text="Тип корма:" Margin="0,0,10,0"/>
+                    <TextBox Text="{Binding FoodType, UpdateSourceTrigger=PropertyChanged}" 
+                            Width="200"/>
+                </StackPanel>
+            </StackPanel>
+
+            <!-- Для кошки -->
+            <StackPanel Visibility="{Binding CatPropertiesVisibility}">
+                <CheckBox Content="Вакцинирована" 
+                         IsChecked="{Binding IsVaccinated}"
+                         Margin="0,0,0,10"/>
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                    <TextBlock Text="Статус:" Margin="0,0,10,0"/>
+                    <TextBox Text="{Binding AdoptionStatus, UpdateSourceTrigger=PropertyChanged}" 
+                            Width="200"/>
+                </StackPanel>
+            </StackPanel>
+
+            <!-- Для кролика -->
+            <StackPanel Visibility="{Binding RabbitPropertiesVisibility}">
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                    <TextBlock Text="Тип ушей:" Margin="0,0,10,0"/>
+                    <TextBox Text="{Binding EarType, UpdateSourceTrigger=PropertyChanged}" 
+                            Width="200"/>
+                </StackPanel>
+                <CheckBox Content="Гигантский" 
+                         IsChecked="{Binding IsGiant}"
+                         Margin="0,0,0,10"/>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" 
+                    Orientation="Horizontal" 
+                    HorizontalAlignment="Right">
+            <Button Content="Добавить" 
+                    Command="{Binding AddCommand}"
+                    Width="100" 
+                    Margin="0,0,10,0"/>
+            <Button Content="Отмена" 
+                    Command="{Binding CancelCommand}"
+                    Width="100"/>
+        </StackPanel>
+    </Grid>
+</Window>

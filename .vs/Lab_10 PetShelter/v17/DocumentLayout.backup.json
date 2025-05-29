@@ -1,0 +1,307 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C4BC01-2DAE-4991-B040-197BB515BF90}|Lab_10 PetShelter\\PetShelter.UI.csproj|c:\\users\\\u0430\u043B\u0438\u043D\u0430\\source\\repos\\lab_10 petshelter\\lab_10 petshelter\\view models\\petsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C4BC01-2DAE-4991-B040-197BB515BF90}|Lab_10 PetShelter\\PetShelter.UI.csproj|solutionrelative:lab_10 petshelter\\view models\\petsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C4BC01-2DAE-4991-B040-197BB515BF90}|Lab_10 PetShelter\\PetShelter.UI.csproj|c:\\users\\\u0430\u043B\u0438\u043D\u0430\\source\\repos\\lab_10 petshelter\\lab_10 petshelter\\view models\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C4BC01-2DAE-4991-B040-197BB515BF90}|Lab_10 PetShelter\\PetShelter.UI.csproj|solutionrelative:lab_10 petshelter\\view models\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C4BC01-2DAE-4991-B040-197BB515BF90}|Lab_10 PetShelter\\PetShelter.UI.csproj|c:\\users\\\u0430\u043B\u0438\u043D\u0430\\source\\repos\\lab_10 petshelter\\lab_10 petshelter\\views\\petsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D6C4BC01-2DAE-4991-B040-197BB515BF90}|Lab_10 PetShelter\\PetShelter.UI.csproj|solutionrelative:lab_10 petshelter\\views\\petsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C4BC01-2DAE-4991-B040-197BB515BF90}|Lab_10 PetShelter\\PetShelter.UI.csproj|c:\\users\\\u0430\u043B\u0438\u043D\u0430\\source\\repos\\lab_10 petshelter\\lab_10 petshelter\\petshelter.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D6C4BC01-2DAE-4991-B040-197BB515BF90}|Lab_10 PetShelter\\PetShelter.UI.csproj|solutionrelative:lab_10 petshelter\\petshelter.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD5B7E3-3C55-4F5C-898F-6C302BAD3DDE}|PetShelter.Model\\PetShelter.Model.csproj|c:\\users\\\u0430\u043B\u0438\u043D\u0430\\source\\repos\\lab_10 petshelter\\petshelter.model\\data\\xmlserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD5B7E3-3C55-4F5C-898F-6C302BAD3DDE}|PetShelter.Model\\PetShelter.Model.csproj|solutionrelative:petshelter.model\\data\\xmlserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD5B7E3-3C55-4F5C-898F-6C302BAD3DDE}|PetShelter.Model\\PetShelter.Model.csproj|c:\\users\\\u0430\u043B\u0438\u043D\u0430\\source\\repos\\lab_10 petshelter\\petshelter.model\\data\\jsonserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD5B7E3-3C55-4F5C-898F-6C302BAD3DDE}|PetShelter.Model\\PetShelter.Model.csproj|solutionrelative:petshelter.model\\data\\jsonserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD5B7E3-3C55-4F5C-898F-6C302BAD3DDE}|PetShelter.Model\\PetShelter.Model.csproj|c:\\users\\\u0430\u043B\u0438\u043D\u0430\\source\\repos\\lab_10 petshelter\\petshelter.model\\data\\serializerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD5B7E3-3C55-4F5C-898F-6C302BAD3DDE}|PetShelter.Model\\PetShelter.Model.csproj|solutionrelative:petshelter.model\\data\\serializerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD5B7E3-3C55-4F5C-898F-6C302BAD3DDE}|PetShelter.Model\\PetShelter.Model.csproj|c:\\users\\\u0430\u043B\u0438\u043D\u0430\\source\\repos\\lab_10 petshelter\\petshelter.model\\core\\rabbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD5B7E3-3C55-4F5C-898F-6C302BAD3DDE}|PetShelter.Model\\PetShelter.Model.csproj|solutionrelative:petshelter.model\\core\\rabbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD5B7E3-3C55-4F5C-898F-6C302BAD3DDE}|PetShelter.Model\\PetShelter.Model.csproj|c:\\users\\\u0430\u043B\u0438\u043D\u0430\\source\\repos\\lab_10 petshelter\\petshelter.model\\core\\shelter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD5B7E3-3C55-4F5C-898F-6C302BAD3DDE}|PetShelter.Model\\PetShelter.Model.csproj|solutionrelative:petshelter.model\\core\\shelter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD5B7E3-3C55-4F5C-898F-6C302BAD3DDE}|PetShelter.Model\\PetShelter.Model.csproj|c:\\users\\\u0430\u043B\u0438\u043D\u0430\\source\\repos\\lab_10 petshelter\\petshelter.model\\core\\interfaces\\ichangeable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD5B7E3-3C55-4F5C-898F-6C302BAD3DDE}|PetShelter.Model\\PetShelter.Model.csproj|solutionrelative:petshelter.model\\core\\interfaces\\ichangeable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD5B7E3-3C55-4F5C-898F-6C302BAD3DDE}|PetShelter.Model\\PetShelter.Model.csproj|c:\\users\\\u0430\u043B\u0438\u043D\u0430\\source\\repos\\lab_10 petshelter\\petshelter.model\\core\\interfaces\\ifilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD5B7E3-3C55-4F5C-898F-6C302BAD3DDE}|PetShelter.Model\\PetShelter.Model.csproj|solutionrelative:petshelter.model\\core\\interfaces\\ifilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD5B7E3-3C55-4F5C-898F-6C302BAD3DDE}|PetShelter.Model\\PetShelter.Model.csproj|c:\\users\\\u0430\u043B\u0438\u043D\u0430\\source\\repos\\lab_10 petshelter\\petshelter.model\\core\\interfaces\\icountable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD5B7E3-3C55-4F5C-898F-6C302BAD3DDE}|PetShelter.Model\\PetShelter.Model.csproj|solutionrelative:petshelter.model\\core\\interfaces\\icountable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD5B7E3-3C55-4F5C-898F-6C302BAD3DDE}|PetShelter.Model\\PetShelter.Model.csproj|c:\\users\\\u0430\u043B\u0438\u043D\u0430\\source\\repos\\lab_10 petshelter\\petshelter.model\\core\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD5B7E3-3C55-4F5C-898F-6C302BAD3DDE}|PetShelter.Model\\PetShelter.Model.csproj|solutionrelative:petshelter.model\\core\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD5B7E3-3C55-4F5C-898F-6C302BAD3DDE}|PetShelter.Model\\PetShelter.Model.csproj|c:\\users\\\u0430\u043B\u0438\u043D\u0430\\source\\repos\\lab_10 petshelter\\petshelter.model\\core\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD5B7E3-3C55-4F5C-898F-6C302BAD3DDE}|PetShelter.Model\\PetShelter.Model.csproj|solutionrelative:petshelter.model\\core\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD5B7E3-3C55-4F5C-898F-6C302BAD3DDE}|PetShelter.Model\\PetShelter.Model.csproj|c:\\users\\\u0430\u043B\u0438\u043D\u0430\\source\\repos\\lab_10 petshelter\\petshelter.model\\core\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD5B7E3-3C55-4F5C-898F-6C302BAD3DDE}|PetShelter.Model\\PetShelter.Model.csproj|solutionrelative:petshelter.model\\core\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C4BC01-2DAE-4991-B040-197BB515BF90}|Lab_10 PetShelter\\PetShelter.UI.csproj|c:\\users\\\u0430\u043B\u0438\u043D\u0430\\source\\repos\\lab_10 petshelter\\lab_10 petshelter\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C4BC01-2DAE-4991-B040-197BB515BF90}|Lab_10 PetShelter\\PetShelter.UI.csproj|solutionrelative:lab_10 petshelter\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C4BC01-2DAE-4991-B040-197BB515BF90}|Lab_10 PetShelter\\PetShelter.UI.csproj|c:\\users\\\u0430\u043B\u0438\u043D\u0430\\source\\repos\\lab_10 petshelter\\lab_10 petshelter\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D6C4BC01-2DAE-4991-B040-197BB515BF90}|Lab_10 PetShelter\\PetShelter.UI.csproj|solutionrelative:lab_10 petshelter\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PetsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\Lab_10 PetShelter\\View models\\PetsViewModel.cs",
+              "RelativeDocumentMoniker": "Lab_10 PetShelter\\View models\\PetsViewModel.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\Lab_10 PetShelter\\View models\\PetsViewModel.cs",
+              "RelativeToolTip": "Lab_10 PetShelter\\View models\\PetsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T18:05:35.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\Lab_10 PetShelter\\View models\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "Lab_10 PetShelter\\View models\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\Lab_10 PetShelter\\View models\\MainViewModel.cs",
+              "RelativeToolTip": "Lab_10 PetShelter\\View models\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T18:05:17.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PetsView.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\Lab_10 PetShelter\\Views\\PetsView.xaml",
+              "RelativeDocumentMoniker": "Lab_10 PetShelter\\Views\\PetsView.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\Lab_10 PetShelter\\Views\\PetsView.xaml",
+              "RelativeToolTip": "Lab_10 PetShelter\\Views\\PetsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-16T18:04:34.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "XmlSerializer.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\PetShelter.Model\\Data\\XmlSerializer.cs",
+              "RelativeDocumentMoniker": "PetShelter.Model\\Data\\XmlSerializer.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\PetShelter.Model\\Data\\XmlSerializer.cs",
+              "RelativeToolTip": "PetShelter.Model\\Data\\XmlSerializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T18:01:40.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JsonSerializer.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\PetShelter.Model\\Data\\JsonSerializer.cs",
+              "RelativeDocumentMoniker": "PetShelter.Model\\Data\\JsonSerializer.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\PetShelter.Model\\Data\\JsonSerializer.cs",
+              "RelativeToolTip": "PetShelter.Model\\Data\\JsonSerializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T18:01:07.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SerializerBase.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\PetShelter.Model\\Data\\SerializerBase.cs",
+              "RelativeDocumentMoniker": "PetShelter.Model\\Data\\SerializerBase.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\PetShelter.Model\\Data\\SerializerBase.cs",
+              "RelativeToolTip": "PetShelter.Model\\Data\\SerializerBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T18:00:39.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IChangeable.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\PetShelter.Model\\Core\\Interfaces\\IChangeable.cs",
+              "RelativeDocumentMoniker": "PetShelter.Model\\Core\\Interfaces\\IChangeable.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\PetShelter.Model\\Core\\Interfaces\\IChangeable.cs",
+              "RelativeToolTip": "PetShelter.Model\\Core\\Interfaces\\IChangeable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:58:52.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Shelter.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\PetShelter.Model\\Core\\Shelter.cs",
+              "RelativeDocumentMoniker": "PetShelter.Model\\Core\\Shelter.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\PetShelter.Model\\Core\\Shelter.cs",
+              "RelativeToolTip": "PetShelter.Model\\Core\\Shelter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:57:06.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IFilter.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\PetShelter.Model\\Core\\Interfaces\\IFilter.cs",
+              "RelativeDocumentMoniker": "PetShelter.Model\\Core\\Interfaces\\IFilter.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\PetShelter.Model\\Core\\Interfaces\\IFilter.cs",
+              "RelativeToolTip": "PetShelter.Model\\Core\\Interfaces\\IFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:56:21.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ICountable.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\PetShelter.Model\\Core\\Interfaces\\ICountable.cs",
+              "RelativeDocumentMoniker": "PetShelter.Model\\Core\\Interfaces\\ICountable.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\PetShelter.Model\\Core\\Interfaces\\ICountable.cs",
+              "RelativeToolTip": "PetShelter.Model\\Core\\Interfaces\\ICountable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:56:01.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Rabbit.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\PetShelter.Model\\Core\\Rabbit.cs",
+              "RelativeDocumentMoniker": "PetShelter.Model\\Core\\Rabbit.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\PetShelter.Model\\Core\\Rabbit.cs",
+              "RelativeToolTip": "PetShelter.Model\\Core\\Rabbit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:55:17.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Dog.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\PetShelter.Model\\Core\\Dog.cs",
+              "RelativeDocumentMoniker": "PetShelter.Model\\Core\\Dog.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\PetShelter.Model\\Core\\Dog.cs",
+              "RelativeToolTip": "PetShelter.Model\\Core\\Dog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:55:02.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Cat.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\PetShelter.Model\\Core\\Cat.cs",
+              "RelativeDocumentMoniker": "PetShelter.Model\\Core\\Cat.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\PetShelter.Model\\Core\\Cat.cs",
+              "RelativeToolTip": "PetShelter.Model\\Core\\Cat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:54:53.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Pet.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\PetShelter.Model\\Core\\Pet.cs",
+              "RelativeDocumentMoniker": "PetShelter.Model\\Core\\Pet.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\PetShelter.Model\\Core\\Pet.cs",
+              "RelativeToolTip": "PetShelter.Model\\Core\\Pet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:54:29.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PetShelter.UI",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\Lab_10 PetShelter\\PetShelter.UI.csproj",
+              "RelativeDocumentMoniker": "Lab_10 PetShelter\\PetShelter.UI.csproj",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\Lab_10 PetShelter\\PetShelter.UI.csproj",
+              "RelativeToolTip": "Lab_10 PetShelter\\PetShelter.UI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-16T17:45:11.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\Lab_10 PetShelter\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Lab_10 PetShelter\\Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\Lab_10 PetShelter\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "Lab_10 PetShelter\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-16T16:57:15.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\Lab_10 PetShelter\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Lab_10 PetShelter\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0438\u043D\u0430\\source\\repos\\Lab_10 PetShelter\\Lab_10 PetShelter\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Lab_10 PetShelter\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T16:57:13.209Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

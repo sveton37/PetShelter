@@ -1,0 +1,67 @@
+﻿<Window x:Class="Lab_10_PetShelter.Views.StatisticsView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Статистика приюта" 
+        Height="400" Width="600"
+        WindowStartupLocation="CenterOwner">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="{Binding ShelterName}" 
+                   FontSize="20" 
+                   FontWeight="Bold" 
+                   Margin="0,0,0,20"/>
+
+        <ItemsControl Grid.Row="1">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="0,5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Grid.Column="0">
+                            <TextBlock Text="Общая статистика:" 
+                                     FontWeight="Bold" 
+                                     Margin="0,10,0,5"/>
+                            <TextBlock Text="{Binding TotalPetsInfo}"/>
+                            <TextBlock Text="{Binding AvailableSpaceInfo}"/>
+                            <TextBlock Text="{Binding OccupancyInfo}"/>
+
+                            <TextBlock Text="Распределение по типам:" 
+                                     FontWeight="Bold" 
+                                     Margin="0,10,0,5"/>
+                            <TextBlock Text="{Binding DogsInfo}"/>
+                            <TextBlock Text="{Binding CatsInfo}"/>
+                            <TextBlock Text="{Binding RabbitsInfo}"/>
+
+                            <TextBlock Text="Средние показатели:" 
+                                     FontWeight="Bold" 
+                                     Margin="0,10,0,5"/>
+                            <TextBlock Text="{Binding AverageAgeInfo}"/>
+                            <TextBlock Text="{Binding AverageWeightInfo}"/>
+                            <TextBlock Text="{Binding ClaustrophobicInfo}"/>
+                        </StackPanel>
+
+                        <Canvas Grid.Column="1" 
+                                Width="200" 
+                                Height="200" 
+                                Margin="20,0,0,0">
+                            <Path x:Name="PieChart" 
+                                  Fill="{Binding DogsSegmentBrush}" 
+                                  Data="{Binding DogsSegment}"/>
+                            <Path Fill="{Binding CatsSegmentBrush}" 
+                                  Data="{Binding CatsSegment}"/>
+                            <Path Fill="{Binding RabbitsSegmentBrush}" 
+                                  Data="{Binding RabbitsSegment}"/>
+                        </Canvas>
+                    </Grid>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+    </Grid>
+</Window>

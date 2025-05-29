@@ -1,0 +1,33 @@
+{
+  "$type": "System.Collections.Generic.List`1[[PetShelter.Model.Core.Shelter, PetShelter.Model]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$id": "1",
+      "$type": "PetShelter.Model.Core.Shelter, PetShelter.Model",
+      "Name": "Добрые лапки",
+      "Capacity": 15,
+      "HasOpenYard": true
+    },
+    {
+      "$id": "2",
+      "$type": "PetShelter.Model.Core.Shelter, PetShelter.Model",
+      "Name": "Верный друг",
+      "Capacity": 10,
+      "HasOpenYard": false
+    },
+    {
+      "$id": "3",
+      "$type": "PetShelter.Model.Core.Shelter, PetShelter.Model",
+      "Name": "Надежда",
+      "Capacity": 20,
+      "HasOpenYard": true
+    },
+    {
+      "$id": "4",
+      "$type": "PetShelter.Model.Core.Shelter, PetShelter.Model",
+      "Name": "Любимец",
+      "Capacity": 12,
+      "HasOpenYard": false
+    }
+  ]
+}
