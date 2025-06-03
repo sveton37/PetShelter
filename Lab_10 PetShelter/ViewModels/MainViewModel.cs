@@ -229,11 +229,11 @@ namespace Lab_10_PetShelter.ViewModels
 
             if (pets.Any())
             {
-                string fileName = SaveReport(pets);
+                var fileName = SaveReport(pets);
 
                 if (!string.IsNullOrEmpty(fileName))
                 {
-                    string extension = SelectedReportFormat == ReportFormat.Json ? "json" : "xml";
+                    var extension = SelectedReportFormat == ReportFormat.Json ? "json" : "xml";
                     MessageBox.Show($"Отчет успешно сохранен как: {fileName}.{extension}", 
                         "Информация", MessageBoxButton.OK, MessageBoxImage.Information);
                 }
@@ -263,8 +263,8 @@ namespace Lab_10_PetShelter.ViewModels
             {
                 _reportCounter++;
 
-                string dateString = DateTime.Now.ToString("yyyy_MM_dd_HH_mm_ss");
-                string fileName = $"Подборка_№{_reportCounter}_от_{dateString}";
+                var dateString = DateTime.Now.ToString("yyyy_MM_dd_HH_mm_ss");
+                var fileName = $"Подборка_№{_reportCounter}_от_{dateString}";
 
                 if (SelectedReportFormat == ReportFormat.Json)
                 {
@@ -295,14 +295,14 @@ namespace Lab_10_PetShelter.ViewModels
                 return;
             }
 
-            string fromExtension = fromFormat == ReportFormat.Json ? "json" : "xml";
-            string toExtension = toFormat == ReportFormat.Json ? "json" : "xml";
-            string searchPattern = $"Подборка_*.{fromExtension}";
+            var fromExtension = fromFormat == ReportFormat.Json ? "json" : "xml";
+            //string toExtension = toFormat == ReportFormat.Json ? "json" : "xml";
+            var searchPattern = $"Подборка_*.{fromExtension}";
             
             try
             {
                 // Используем тот же базовый путь, что и сериализаторы
-                string baseDirectory = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data");
+                var baseDirectory = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data");
                 
                 // Проверяем существование директории
                 if (!Directory.Exists(baseDirectory))
@@ -313,7 +313,7 @@ namespace Lab_10_PetShelter.ViewModels
                 }
                 
                 // Ищем файлы в правильной директории
-                string[] files = Directory.GetFiles(baseDirectory, searchPattern);
+                var files = Directory.GetFiles(baseDirectory, searchPattern);
                 
                 if (files.Length == 0)
                 {
@@ -322,10 +322,10 @@ namespace Lab_10_PetShelter.ViewModels
                     return;
                 }
                 
-                int convertedCount = 0;
+                var convertedCount = 0;
                 foreach (string file in files)
                 {
-                    string fileNameWithoutExt = Path.GetFileNameWithoutExtension(file);
+                    var fileNameWithoutExt = Path.GetFileNameWithoutExtension(file);
                     
                     if (fromFormat == ReportFormat.Json && toFormat == ReportFormat.Xml)
                     {
