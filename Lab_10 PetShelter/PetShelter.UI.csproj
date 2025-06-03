@@ -14,10 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Helper\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\PetShelter.Model\PetShelter.Model.csproj" />
   </ItemGroup>
 

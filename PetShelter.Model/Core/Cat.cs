@@ -1,26 +1,34 @@
-﻿namespace PetShelter.Model.Core;
+﻿using System.Xml.Serialization;
 
+namespace PetShelter.Model.Core;
+
+[XmlType("Cat")]
 public partial class Cat : Pet
 {
-    public bool IsVaccinated { get; private set; }
-    public string IsAdopted { get; private set; }
+    // Пустой конструктор для XML-сериализации
+    public Cat() { }
+    
+    [XmlIgnore]
+    public override Type Type => typeof(Cat);
+    
+    [XmlElement("IsVaccinated")]
+    public bool IsVaccinated { get; set; }
+    
+    [XmlElement("AdoptionStatus")]
+    public string AdoptionStatus { get; set; }
 
-    public Cat(string name, int age, double weight, bool isVaccinated, string isAdopted)
-        : base(name, age, weight)
+    public Cat(string name, int age, double weight, bool claustrophobic, bool isVaccinated, string adoptionStatus)
+        : base(name, age, weight, claustrophobic)
     {
         IsVaccinated = isVaccinated;
-        IsAdopted = isAdopted ?? throw new ArgumentNullException(nameof(isAdopted));
+        AdoptionStatus = adoptionStatus;
     }
-
-    public override Type Type => typeof(Cat);
 }
 
-public partial class Cat : Pet
+public partial class Cat
 {
-    public Cat(string name, int age, double weight, bool claustrophobic, bool isVacinated, string isAdopted) : base(
-        name, age, weight, claustrophobic)
+    public override string ToString()
     {
-        IsVaccinated = isVacinated;
-        IsAdopted = isAdopted;
+        return $"{base.ToString()}, Вакцинированная: {(IsVaccinated ? "Да" : "Нет")}, Статус: {AdoptionStatus}";
     }
 }

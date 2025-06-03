@@ -1,0 +1,26 @@
+[
+  {
+    "$type": "PetShelter.Model.Core.Rabbit, PetShelter.Model",
+    "type": "PetShelter.Model.Core.Rabbit, PetShelter.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "earType": null,
+    "isGiant": true,
+    "name": "Пушистик",
+    "age": 2,
+    "weight": 3.5,
+    "claustrophobic": true,
+    "petType": "Rabbit",
+    "claustrophobicText": "Да"
+  },
+  {
+    "$type": "PetShelter.Model.Core.Rabbit, PetShelter.Model",
+    "type": "PetShelter.Model.Core.Rabbit, PetShelter.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "earType": null,
+    "isGiant": true,
+    "name": "Морковка",
+    "age": 3,
+    "weight": 4.2,
+    "claustrophobic": true,
+    "petType": "Rabbit",
+    "claustrophobicText": "Да"
+  }
+]

@@ -1,31 +1,76 @@
-﻿namespace PetShelter.Model.Data;
+﻿using PetShelter.Model.Core;
 
-public class XmlSerializer : SerializerBase
+namespace PetShelter.Model.Data
 {
-    public override void Serialize<T>(string fileName, T data)
+    public class XmlSerializer : SerializerBase
     {
-        var path = GetFullPath($"{fileName}.xml");
-        EnsureFileExists(path);
-
-        var serializer = new System.Xml.Serialization.XmlSerializer(typeof(T));
-        using (var writer = new StreamWriter(path))
+        public XmlSerializer() : base()
         {
-            serializer.Serialize(writer, data);
         }
-    }
-
-    public override T Deserialize<T>(string fileName)
-    {
-        var path = GetFullPath($"{fileName}.xml");
-        if (!File.Exists(path))
+        
+        public override void Serialize<T>(string fileName, T data)
         {
-            throw new FileNotFoundException($"File {fileName}.xml not found");
+            try
+            {
+                // Создаем XmlSerializer с известными типами
+                var knownTypes = new Type[]
+                {
+                    typeof(Pet),
+                    typeof(Dog),
+                    typeof(Cat),
+                    typeof(Rabbit)
+                };
+                
+                var fullPath = GetFullPath($"{fileName}.xml");
+                EnsureFileExists(fullPath);
+                
+                var serializer = new System.Xml.Serialization.XmlSerializer(typeof(T), knownTypes);
+                using var writer = new StreamWriter(fullPath);
+                
+                // Добавляем настройки XML для правильной обработки
+                var namespaces = new System.Xml.Serialization.XmlSerializerNamespaces();
+                namespaces.Add(string.Empty, string.Empty); // Убираем лишние пространства имен
+                
+                serializer.Serialize(writer, data, namespaces);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Ошибка сериализации XML: {ex.Message}");
+                throw;
+            }
         }
-
-        var serializer = new System.Xml.Serialization.XmlSerializer(typeof(T));
-        using (var reader = new StreamReader(path))
+        
+        public override T Deserialize<T>(string fileName)
         {
-            return (T)serializer.Deserialize(reader);
+            try
+            {
+                var fullPath = fileName.EndsWith(".xml") 
+                    ? GetFullPath(fileName) 
+                    : GetFullPath($"{fileName}.xml");
+                
+                if (!File.Exists(fullPath))
+                {
+                    throw new FileNotFoundException($"Файл {fullPath} не найден");
+                }
+                
+                // Создаем XmlSerializer с известными типами
+                var knownTypes = new Type[]
+                {
+                    typeof(Pet),
+                    typeof(Dog),
+                    typeof(Cat),
+                    typeof(Rabbit)
+                };
+                
+                var serializer = new System.Xml.Serialization.XmlSerializer(typeof(T), knownTypes);
+                using var reader = new StreamReader(fullPath);
+                return (T)serializer.Deserialize(reader);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Ошибка десериализации XML: {ex.Message}");
+                throw;
+            }
         }
     }
 }

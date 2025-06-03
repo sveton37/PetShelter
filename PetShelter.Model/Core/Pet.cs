@@ -1,11 +1,27 @@
-﻿namespace PetShelter.Model.Core;
+﻿using Newtonsoft.Json;
+using System.Xml.Serialization;
 
+namespace PetShelter.Model.Core;
+
+[XmlInclude(typeof(Dog))]
+[XmlInclude(typeof(Cat))]
+[XmlInclude(typeof(Rabbit))]
 public abstract partial class Pet
 {
+    // Необходимый пустой конструктор для XML-сериализации
+    protected Pet() { }
+    
+    [XmlIgnore] // Свойство Type не будет сериализоваться
     public abstract Type Type { get; }
-    public string Name { get; private set; }
-    public int Age { get; private set; }
-    public double Weight { get; private set; }
+    
+    [XmlElement("Name")]
+    public string Name { get; set; } // Изменили на публичный сеттер
+    
+    [XmlElement("Age")]
+    public int Age { get; set; } // Изменили на публичный сеттер
+    
+    [XmlElement("Weight")]
+    public double Weight { get; set; } // Изменили на публичный сеттер
 
     public Pet(string name, int age, double weight)
     {
@@ -24,7 +40,12 @@ public abstract partial class Pet
 
 public abstract partial class Pet
 {
-    public bool Claustrophobic { get; private set; } // Исправлено имя свойства
+    [XmlElement("Claustrophobic")]
+    public bool Claustrophobic { get; set; } // Изменили на публичный сеттер
+    
+    [JsonProperty("PetType")]
+    [XmlElement("PetType")]
+    public string PetType => this.GetType().Name;
 
     public Pet(string name, int age, double weight, bool claustrophobic)
     {
@@ -46,4 +67,6 @@ public abstract partial class Pet
         return $"Тип: {Type}, Имя: {Name}, Возраст: {Age}, Вес: {Weight}, " +
                $"Клаустрофобия: {(Claustrophobic ? "Да" : "Нет")}";
     }
+
+    public string ClaustrophobicText => Claustrophobic ? "Да" : "Нет";
 }

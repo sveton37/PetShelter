@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPet>
+  <Pet p2:type="Rabbit" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Хлопок</Name>
+    <Age>1</Age>
+    <Weight>1.8</Weight>
+    <Claustrophobic>false</Claustrophobic>
+    <IsGiant>false</IsGiant>
+  </Pet>
+</ArrayOfPet>

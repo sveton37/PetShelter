@@ -22,15 +22,21 @@
                 <DataGridTextColumn Header="Имя" Binding="{Binding Name}" Width="*"/>
                 <DataGridTextColumn Header="Возраст" Binding="{Binding Age}" Width="100"/>
                 <DataGridTextColumn Header="Вес" Binding="{Binding Weight}" Width="100"/>
-                <DataGridCheckBoxColumn Header="Клаустрофобия" 
-                      Binding="{Binding Claustrophobic}" 
-                      Width="100"/>
+                <DataGridTextColumn Header="Клаустрофобия" 
+                    Binding="{Binding ClaustrophobicText}" 
+                    Width="120" />
             </DataGrid.Columns>
         </DataGrid>
 
         <StackPanel Grid.Row="1" 
                     Orientation="Horizontal" 
                     HorizontalAlignment="Right">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <TextBlock Text="Формат отчета:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                <ComboBox ItemsSource="{Binding ReportFormats}" 
+                          SelectedItem="{Binding SelectedReportFormat}"
+                          Width="100" Margin="0,0,10,0" />
+            </StackPanel>
             <Button Content="Добавить питомца"
                     Command="{Binding AddPetCommand}"
                     Width="120"
@@ -38,6 +44,11 @@
                     Margin="0,0,10,0"/>
             <Button Content="Удалить питомца"
                     Command="{Binding RemovePetCommand}"
+                    Width="120"
+                    Height="30"
+                    Margin="0,0,10,0"/>
+            <Button Content="Сохранить отчет" 
+                    Command="{Binding SaveReportCommand}"
                     Width="120"
                     Height="30"/>
         </StackPanel>

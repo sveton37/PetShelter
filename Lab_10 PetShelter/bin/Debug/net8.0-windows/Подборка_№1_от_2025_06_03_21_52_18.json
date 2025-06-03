@@ -1,0 +1,14 @@
+[
+  {
+    "$type": "PetShelter.Model.Core.Rabbit, PetShelter.Model",
+    "type": "PetShelter.Model.Core.Rabbit, PetShelter.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "earType": "Вислоухий",
+    "isGiant": false,
+    "name": "Попрыгун",
+    "age": 2,
+    "weight": 2.5,
+    "claustrophobic": false,
+    "petType": "Rabbit",
+    "claustrophobicText": "Нет"
+  }
+]

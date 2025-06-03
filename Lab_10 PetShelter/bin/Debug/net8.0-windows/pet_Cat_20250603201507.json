@@ -1,0 +1,12 @@
+{
+  "$type": "PetShelter.Model.Core.Cat, PetShelter.Model",
+  "isVaccinated": true,
+  "isAdopted": " в приюте",
+  "type": "PetShelter.Model.Core.Cat, PetShelter.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "name": "srjysrt",
+  "age": 1,
+  "weight": 1.0,
+  "claustrophobic": false,
+  "petType": "Cat",
+  "claustrophobicText": "Нет"
+}

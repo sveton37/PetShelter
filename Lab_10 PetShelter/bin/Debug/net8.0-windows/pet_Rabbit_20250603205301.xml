@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Pet p1:type="Rabbit" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>фыпр</Name>
+  <Age>2</Age>
+  <Weight>2</Weight>
+  <Claustrophobic>false</Claustrophobic>
+  <EarType>Стандартные</EarType>
+  <IsGiant>true</IsGiant>
+</Pet>

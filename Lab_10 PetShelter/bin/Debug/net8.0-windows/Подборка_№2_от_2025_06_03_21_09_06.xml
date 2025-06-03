@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPet>
+  <Pet p2:type="Cat" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Мурка</Name>
+    <Age>2</Age>
+    <Weight>4.5</Weight>
+    <Claustrophobic>false</Claustrophobic>
+    <IsVaccinated>true</IsVaccinated>
+    <AdoptionStatus>Ищет дом</AdoptionStatus>
+  </Pet>
+</ArrayOfPet>

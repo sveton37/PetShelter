@@ -1,38 +1,42 @@
 ﻿using Newtonsoft.Json;
-
-namespace PetShelter.Model.Data;
-
-public class JsonSerializer : SerializerBase
+using Newtonsoft.Json.Serialization;
+namespace PetShelter.Model.Data
 {
-    public readonly JsonSerializerSettings _settings;
-
-    public JsonSerializer()
+    public class JsonSerializer : SerializerBase
     {
-        _settings = new JsonSerializerSettings
+        private readonly JsonSerializerSettings _settings;
+        
+        public JsonSerializer() : base()
         {
-            TypeNameHandling = TypeNameHandling.All,
-            Formatting = Formatting.Indented,
-            PreserveReferencesHandling = PreserveReferencesHandling.Objects
-        };
-    }
-
-    public override void Serialize<T>(string fileName, T data)
-    {
-        var path = GetFullPath($"{fileName}.json");
-        EnsureFileExists(path);
-        string jsonData = JsonConvert.SerializeObject(data, _settings);
-        File.WriteAllText(path, jsonData);
-    }
-
-    public override T Deserialize<T>(string fileName)
-    {
-        var path = GetFullPath($"{fileName}.json");
-        if (!File.Exists(path))
-        {
-            throw new FileNotFoundException($"File {fileName}.json not found");
+            _settings = new JsonSerializerSettings
+            {
+                Formatting = Formatting.Indented,
+                TypeNameHandling = TypeNameHandling.Objects, // Сохраняем информацию о типе
+                ContractResolver = new CamelCasePropertyNamesContractResolver()
+            };
         }
-
-        string jsonData = File.ReadAllText(path);
-        return JsonConvert.DeserializeObject<T>(jsonData, _settings);
+        
+        public override void Serialize<T>(string fileName, T data)
+        {
+            var json = JsonConvert.SerializeObject(data, _settings);
+            var fullPath = GetFullPath($"{fileName}.json");
+            EnsureFileExists(fullPath);
+            File.WriteAllText(fullPath, json);
+        }
+        
+        public override T Deserialize<T>(string fileName)
+        {
+            var fullPath = fileName.EndsWith(".json") 
+                ? GetFullPath(fileName) 
+                : GetFullPath($"{fileName}.json");
+                
+            if (!File.Exists(fullPath))
+            {
+                throw new FileNotFoundException($"Файл {fullPath} не найден");
+            }
+            
+            var json = File.ReadAllText(fullPath);
+            return JsonConvert.DeserializeObject<T>(json, _settings);
+        }
     }
 }

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPet>
+  <Pet p2:type="Dog" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Рекс</Name>
+    <Age>3</Age>
+    <Weight>15.5</Weight>
+    <Claustrophobic>false</Claustrophobic>
+    <IsTrained>true</IsTrained>
+    <FoodType>Сухой корм</FoodType>
+  </Pet>
+  <Pet p2:type="Cat" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Мурка</Name>
+    <Age>2</Age>
+    <Weight>4.5</Weight>
+    <Claustrophobic>false</Claustrophobic>
+    <IsVaccinated>true</IsVaccinated>
+    <AdoptionStatus>Ищет дом</AdoptionStatus>
+  </Pet>
+  <Pet p2:type="Rabbit" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Ушастик</Name>
+    <Age>1</Age>
+    <Weight>2</Weight>
+    <Claustrophobic>false</Claustrophobic>
+    <EarType>Вислоухий</EarType>
+    <IsGiant>false</IsGiant>
+  </Pet>
+  <Pet p2:type="Dog" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Барон</Name>
+    <Age>5</Age>
+    <Weight>20</Weight>
+    <Claustrophobic>true</Claustrophobic>
+    <IsTrained>true</IsTrained>
+    <FoodType>Натуральный корм</FoodType>
+  </Pet>
+  <Pet p2:type="Cat" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Пушок</Name>
+    <Age>3</Age>
+    <Weight>5.2</Weight>
+    <Claustrophobic>true</Claustrophobic>
+    <IsVaccinated>true</IsVaccinated>
+    <AdoptionStatus>На карантине</AdoptionStatus>
+  </Pet>
+</ArrayOfPet>

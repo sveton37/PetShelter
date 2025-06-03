@@ -1,0 +1,14 @@
+[
+  {
+    "$type": "PetShelter.Model.Core.Rabbit, PetShelter.Model",
+    "type": "PetShelter.Model.Core.Rabbit, PetShelter.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "earType": null,
+    "isGiant": false,
+    "name": "Хлопок",
+    "age": 1,
+    "weight": 1.8,
+    "claustrophobic": false,
+    "petType": "Rabbit",
+    "claustrophobicText": "Нет"
+  }
+]

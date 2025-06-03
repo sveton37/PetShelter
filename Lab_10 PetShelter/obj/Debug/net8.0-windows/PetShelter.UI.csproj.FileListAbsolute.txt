@@ -30,3 +30,4 @@ C:\Users\sport\Downloads\Telegram Desktop\Lab_10 PetShelter (2)\Lab_10 PetShelte
 C:\Users\sport\Downloads\Telegram Desktop\Lab_10 PetShelter (2)\Lab_10 PetShelter\Lab_10 PetShelter\obj\Debug\net8.0-windows\PetShelter.UI.pdb
 C:\Users\sport\Downloads\Telegram Desktop\Lab_10 PetShelter (2)\Lab_10 PetShelter\Lab_10 PetShelter\obj\Debug\net8.0-windows\PetShelter.UI.genruntimeconfig.cache
 C:\Users\sport\Downloads\Telegram Desktop\Lab_10 PetShelter (2)\Lab_10 PetShelter\Lab_10 PetShelter\obj\Debug\net8.0-windows\ref\PetShelter.UI.dll
+C:\Users\sport\Downloads\Telegram Desktop\Lab_10 PetShelter (2)\Lab_10 PetShelter\Lab_10 PetShelter\obj\Debug\net8.0-windows\PetShelter.UI.sourcelink.json

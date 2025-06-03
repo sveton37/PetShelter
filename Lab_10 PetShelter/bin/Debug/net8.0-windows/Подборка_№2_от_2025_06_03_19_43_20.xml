@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPet>
+  <Pet p2:type="Rabbit" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Пушистик</Name>
+    <Age>2</Age>
+    <Weight>3.5</Weight>
+    <Claustrophobic>true</Claustrophobic>
+    <IsGiant>true</IsGiant>
+  </Pet>
+  <Pet p2:type="Rabbit" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Морковка</Name>
+    <Age>3</Age>
+    <Weight>4.2</Weight>
+    <Claustrophobic>true</Claustrophobic>
+    <IsGiant>true</IsGiant>
+  </Pet>
+</ArrayOfPet>

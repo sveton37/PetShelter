@@ -1,6 +1,6 @@
 ﻿using System.Windows.Input;
 
-namespace Lab_10_PetShelter.ViewModels;
+namespace Lab_10_PetShelter.Helper;
 
 public class RelayCommand : ICommand
 {

@@ -1,0 +1,12 @@
+{
+  "$type": "PetShelter.Model.Core.Dog, PetShelter.Model",
+  "isTrained": true,
+  "foodType": "сухой корм",
+  "type": "PetShelter.Model.Core.Dog, PetShelter.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "name": "гц6",
+  "age": 1,
+  "weight": 12.0,
+  "claustrophobic": false,
+  "petType": "Dog",
+  "claustrophobicText": "Нет"
+}

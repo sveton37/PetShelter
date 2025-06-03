@@ -1,0 +1,26 @@
+[
+  {
+    "$type": "PetShelter.Model.Core.Cat, PetShelter.Model",
+    "type": "PetShelter.Model.Core.Cat, PetShelter.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "isVaccinated": true,
+    "adoptionStatus": "На карантине",
+    "name": "Пушок",
+    "age": 3,
+    "weight": 5.2,
+    "claustrophobic": true,
+    "petType": "Cat",
+    "claustrophobicText": "Да"
+  },
+  {
+    "$type": "PetShelter.Model.Core.Cat, PetShelter.Model",
+    "type": "PetShelter.Model.Core.Cat, PetShelter.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "isVaccinated": true,
+    "adoptionStatus": "в приюте",
+    "name": "мурка",
+    "age": 4,
+    "weight": 5.0,
+    "claustrophobic": false,
+    "petType": "Cat",
+    "claustrophobicText": "Нет"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "$type": "PetShelter.Model.Core.Rabbit, PetShelter.Model",
+    "typeOfEars": "Вислоухий",
+    "isGiant": false,
+    "type": "PetShelter.Model.Core.Rabbit, PetShelter.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "name": "Ушастик",
+    "age": 1,
+    "weight": 2.0,
+    "claustrophobic": false,
+    "petType": "Rabbit"
+  }
+]

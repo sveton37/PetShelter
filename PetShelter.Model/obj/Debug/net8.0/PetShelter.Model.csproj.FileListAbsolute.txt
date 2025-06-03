@@ -10,3 +10,4 @@ C:\Users\sport\Downloads\Telegram Desktop\Lab_10 PetShelter (2)\Lab_10 PetShelte
 C:\Users\sport\Downloads\Telegram Desktop\Lab_10 PetShelter (2)\Lab_10 PetShelter\PetShelter.Model\obj\Debug\net8.0\refint\PetShelter.Model.dll
 C:\Users\sport\Downloads\Telegram Desktop\Lab_10 PetShelter (2)\Lab_10 PetShelter\PetShelter.Model\obj\Debug\net8.0\PetShelter.Model.pdb
 C:\Users\sport\Downloads\Telegram Desktop\Lab_10 PetShelter (2)\Lab_10 PetShelter\PetShelter.Model\obj\Debug\net8.0\ref\PetShelter.Model.dll
+C:\Users\sport\Downloads\Telegram Desktop\Lab_10 PetShelter (2)\Lab_10 PetShelter\PetShelter.Model\obj\Debug\net8.0\PetShelter.Model.sourcelink.json

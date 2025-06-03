@@ -1,0 +1,50 @@
+[
+  {
+    "$type": "PetShelter.Model.Core.Dog, PetShelter.Model",
+    "type": "PetShelter.Model.Core.Dog, PetShelter.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "isTrained": true,
+    "foodType": "Сухой корм",
+    "name": "Рекс",
+    "age": 3,
+    "weight": 15.5,
+    "claustrophobic": false,
+    "petType": "Dog",
+    "claustrophobicText": "Нет"
+  },
+  {
+    "$type": "PetShelter.Model.Core.Cat, PetShelter.Model",
+    "type": "PetShelter.Model.Core.Cat, PetShelter.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "isVaccinated": true,
+    "adoptionStatus": "Ищет дом",
+    "name": "Мурка",
+    "age": 2,
+    "weight": 4.5,
+    "claustrophobic": false,
+    "petType": "Cat",
+    "claustrophobicText": "Нет"
+  },
+  {
+    "$type": "PetShelter.Model.Core.Dog, PetShelter.Model",
+    "type": "PetShelter.Model.Core.Dog, PetShelter.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "isTrained": true,
+    "foodType": "Натуральный корм",
+    "name": "Барон",
+    "age": 5,
+    "weight": 20.0,
+    "claustrophobic": true,
+    "petType": "Dog",
+    "claustrophobicText": "Да"
+  },
+  {
+    "$type": "PetShelter.Model.Core.Cat, PetShelter.Model",
+    "type": "PetShelter.Model.Core.Cat, PetShelter.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "isVaccinated": true,
+    "adoptionStatus": "На карантине",
+    "name": "Пушок",
+    "age": 3,
+    "weight": 5.2,
+    "claustrophobic": true,
+    "petType": "Cat",
+    "claustrophobicText": "Да"
+  }
+]

@@ -15,18 +15,28 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        
+
+        <!-- row 0: выбор приюта -->
         <StackPanel Grid.Row="0" Margin="0,0,0,10">
             <TextBlock Text="Выберите приют:" Margin="0,0,0,5"/>
-            <ComboBox ItemsSource="{Binding Shelters}" 
+            <ComboBox ItemsSource="{Binding Shelters}"
                       SelectedItem="{Binding SelectedShelter}"
                       DisplayMemberPath="Name"/>
         </StackPanel>
 
-        <StackPanel Grid.Row="1" Margin="0,0,0,10">
+        <!-- row 1: чекбокс (перемещен выше) -->
+        <CheckBox Grid.Row="1"
+                  Content="Только приюты с открытой территорией"
+                  IsChecked="{Binding ShowOpenYardOnly}"
+                  Margin="0,0,0,10"/>
+
+        <!-- row 2: выбор типа животного - сдвинут влево под надпись -->
+        <StackPanel Grid.Row="2" Margin="0,0,0,10">
             <TextBlock Text="Выберите тип животного:" Margin="0,0,0,5"/>
             <ComboBox ItemsSource="{Binding PetTypes}"
-                      SelectedItem="{Binding SelectedPetType}">
+                      SelectedItem="{Binding SelectedPetType}"
+                      HorizontalAlignment="Left"
+                      Width="200">
                 <ComboBox.ItemTemplate>
                     <DataTemplate>
                         <TextBlock Text="{Binding Name}"/>
@@ -35,21 +45,33 @@
             </ComboBox>
         </StackPanel>
 
-        <CheckBox Grid.Row="2" 
-                  Content="Только приюты с открытой территорией"
-                  IsChecked="{Binding ShowOpenYardOnly, Mode=TwoWay}"
-                  Margin="0,0,0,10"/>
-
+        <!-- row 3: кнопки -->
         <StackPanel Grid.Row="3" Margin="0,0,0,10">
-            <TextBlock Text="Формат сохранения:" Margin="0,0,0,5"/>
-            <ComboBox ItemsSource="{Binding SerializationFormats}"
-                      SelectedItem="{Binding SelectedFormat}"/>
+            <!-- Кнопка "Показать питомцев" -->
+            <Button Content="Показать питомцев"
+                    Command="{Binding ShowPetsCommand}"
+                    Height="30"
+                    Margin="0,0,0,10"/>
+            
+            <!-- Кнопка "Показать статистику" (перемещена выше) -->
+            <Button Content="Показать статистику"
+                    Command="{Binding ShowStatisticsCommand}"
+                    Height="30"
+                    Margin="0,0,0,10"/>
         </StackPanel>
 
-        <Button Grid.Row="4" 
-                Content="Показать статистику"
-                Command="{Binding ShowStatisticsCommand}"
-                Height="30"
-                Margin="0,0,10,10"/>
+        <!-- row 4: формат сохранения и конвертация -->
+        <StackPanel Grid.Row="4" Orientation="Horizontal" Margin="0,0,0,10">
+            <TextBlock Text="Текущий формат отчета:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+            <ComboBox ItemsSource="{Binding ReportFormats}" 
+                      SelectedItem="{Binding SelectedReportFormat}"
+                      Width="100" />
+            <Button Content="Конвертировать все отчеты" 
+                    Command="{Binding ConvertReportsCommand}"
+                    ToolTip="Конвертирует все отчеты из текущего формата в противоположный"
+                    Width="180"
+                    Height="30"
+                    Margin="10,0,0,0" />
+        </StackPanel>
     </Grid>
 </Window>

@@ -1,26 +1,34 @@
 ﻿namespace PetShelter.Model.Core;
 
+using System.Xml.Serialization;
+
+[XmlType("Rabbit")]
 public partial class Rabbit : Pet
 {
-    public string TypeOfEars { get; private set; }
-    public bool IsGiant { get; private set; }
+    // Пустой конструктор для XML-сериализации
+    public Rabbit() { }
+    
+    [XmlIgnore]
+    public override Type Type => typeof(Rabbit);
+    
+    [XmlElement("EarType")]
+    public string EarType { get; set; }
+    
+    [XmlElement("IsGiant")]
+    public bool IsGiant { get; set; }
 
-    public Rabbit(string name, int age, double weight, string typeOfEars, bool isGiant)
-        : base(name, age, weight)
+    public Rabbit(string name, int age, double weight, bool claustrophobic, string earType, bool isGiant)
+        : base(name, age, weight, claustrophobic)
     {
-        TypeOfEars = typeOfEars ?? throw new ArgumentNullException(nameof(typeOfEars));
+        EarType = earType;
         IsGiant = isGiant;
     }
-
-    public override Type Type => typeof(Rabbit);
 }
 
-public partial class Rabbit : Pet
+public partial class Rabbit
 {
-    public Rabbit(string name, int age, double weight, bool claustrophobic, string typeOfEars, bool isGiant) : base(
-        name, age, weight, claustrophobic)
+    public override string ToString()
     {
-        TypeOfEars = typeOfEars;
-        IsGiant = isGiant;
+        return $"{base.ToString()}, Тип ушей: {EarType}, Гигант: {(IsGiant ? "Да" : "Нет")}";
     }
 }
