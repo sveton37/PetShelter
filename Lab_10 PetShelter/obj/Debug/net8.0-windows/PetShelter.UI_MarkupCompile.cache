@@ -8,12 +8,12 @@ C:\Users\sport\Downloads\Telegram Desktop\Lab_10 PetShelter (2)\Lab_10 PetShelte
 Lab_10_PetShelter
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\sport\Downloads\Telegram Desktop\Lab_10 PetShelter (2)\Lab_10 PetShelter\Lab_10 PetShelter\App.xaml
 4476464826
 
 13-1324785150
-200-1146061116
+2002139717254
 Views\AddPetView.xaml;Views\MainWindow.xaml;Views\PetsView.xaml;Views\StatisticsView.xaml;
 
 False

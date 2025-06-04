@@ -2,11 +2,23 @@
 
 namespace PetShelter.Model.Data;
 
+/// <summary>
+/// Статический класс для инициализации начальных данных приюта.
+/// Обеспечивает создание тестового набора приютов и животных для демонстрации работы приложения.
+/// </summary>
 public static class DataInitializer
 {
     private static readonly JsonSerializer _jsonSerializer = new JsonSerializer();
+    
+    /// <summary>
+    /// Константа, определяющая имя файла для хранения списка приютов.
+    /// </summary>
     private const string SHELTERS_FILE = "shelters";
     
+    /// <summary>
+    /// Создает начальный набор данных, включая приюты и животных.
+    /// </summary>
+    /// <returns>Список инициализированных приютов с распределенными по ним животными.</returns>
     public static List<Shelter> CreateInitialData()
     {
         var shelters = new List<Shelter>
@@ -91,6 +103,11 @@ public static class DataInitializer
         }
     }
 
+    /// <summary>
+    /// Загружает данные о приютах из файла. Если загрузка не удалась, 
+    /// создает новые данные с помощью метода CreateInitialData.
+    /// </summary>
+    /// <returns>Список приютов с животными.</returns>
     public static List<Shelter> LoadData()
     {
         try
